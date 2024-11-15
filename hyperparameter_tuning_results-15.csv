@@ -1,0 +1,2 @@
+num_hidden,hidden_size,lr,alpha,batch_size,num_epochs,val_acc,val_loss
+1,30,0.001,0.0001,128,100,83.32916666666665,0.42466919782914614
