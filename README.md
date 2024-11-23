@@ -17,9 +17,9 @@ The following scripts are the core components of this repository:
 
 ### 2. `hyperparameter_tuning.ipynb`
 - **Description:** 
-  - This notebook contains code to get validation accuracies (using K-fold validation) with different combinations of hyperparameters for different Kryptonite-n (n = 9, 12, 15) datasets.
-  - The results of the experiments are stored in csv files in the directory 'Results/HyperparameterTuning'.
-  - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory 'Plots/HyperparameterTuning'.
+  - This notebook contains code to get validation accuracies (using K-fold validation) with different combinations of hyperparameters for different `Kryptonite-n` (n = 9, 12, 15) datasets.
+  - The results of the experiments are stored in csv files in the directory `Results/HyperparameterTuning`.
+  - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory `Plots/HyperparameterTuning`.
 - **Purpose:** Improve model performance by finding the best hyperparameter configuration.
 
 ### 3. `training_and_testing.ipynb`
