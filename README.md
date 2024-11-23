@@ -17,8 +17,9 @@ The following scripts are the core components of this repository:
 
 ### 2. `hyperparameter_tuning.ipynb`
 - **Description:** 
-  - Focuses on optimizing model performance by tuning hyperparameters using techniques like grid search, random search, or Bayesian optimization.
-  - Includes experiments and results for different sets of hyperparameters.
+  - This notebook contains code to get validation accuracies (using K-fold validation) with different combinations of hyperparameters for different Kryptonite-n (n = 9, 12, 15) datasets.
+  - The results of the experiments are stored in csv files in the directory 'Results/HyperparameterTuning'.
+  - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory 'Plots/HyperparameterTuning'.
 - **Purpose:** Improve model performance by finding the best hyperparameter configuration.
 
 ### 3. `training_and_testing.ipynb`
@@ -49,16 +50,16 @@ The following scripts are the core components of this repository:
 Apart from the scripts, this repository also contains the following directories:  
 
 - **`Plots`**  
-  - Contains all plots generated from the scripts.  
-  - Organized by the corresponding notebook and analysis step.  
+  - Contains all plots generated from the scripts organized by the corresponding notebook.  
 
 - **`Results`**  
-  - Contains all numerical results obtained from various experiments.  
-  - Includes hyperparameter optimization results, model evaluation metrics, and other statistics.  
+  - Contains the numerical results data obtained from any experiments.
 
 - **`Datasets`**  
   - Contains the `Kryptonite-n` datasets used in the project.  
-  - Includes raw, processed, and labeled datasets.
+
+- **`HiddenLabels`**
+  - Contains the predicted labels for the hidden Kryptonite-n datasets.
 
 ## Getting Started
 
