@@ -2,68 +2,65 @@
 
 Coursework for Mathematics for Machine Learning (70015) at Imperial College London. 
 
-This repository contains a collection of Jupyter Notebooks developed for the to solve the coursework task. Each notebook is designed to address a specific aspect of the project, from data analysis to model evaluation and sustainability considerations.
+This repository contains a collection of Jupyter Notebooks developed for solving the coursework task. Each notebook is designed to address a specific aspect of the project, from data analysis to model evaluation and sustainability considerations.
 
 ## Repository Structure
 
 ### Scripts  
 The following scripts are the core components of this repository:
 
-### 1. `data_analysis.ipynb`
+### 1. [`data_analysis.ipynb`](./data_analysis.ipynb)
 - **Description:** 
   - This notebook contains the initial data exploration and analysis.
   - It includes data visualization, statistical summaries, and preprocessing steps to prepare the dataset for machine learning tasks.
 - **Purpose:** Understand the dataset and identify patterns, correlations, and potential challenges.
 
-### 2. `hyperparameter_tuning.ipynb`
+### 2. [`hyperparameter_tuning.ipynb`](./hyperparameter_tuning.ipynb)
 - **Description:** 
   - This notebook contains code to get validation accuracies (using K-fold validation) with different combinations of hyperparameters for different `Kryptonite-n` (n = 9, 12, 15) datasets.
   - The results of the experiments are stored in csv files in the directory `Results/HyperparameterTuning`.
   - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory `Plots/HyperparameterTuning`.
 - **Purpose:** Improve model performance by finding the best hyperparameter configuration.
 
-### 3. `training_and_testing.ipynb`
+### 3. [`training_and_testing.ipynb`](./training_and_testing.ipynb)
 - **Description:** 
   - Implements the training and testing of machine learning models.
   - Includes model evaluation metrics, such as accuracy, precision, recall, F1-score, and confusion matrices.
 - **Purpose:** Train models on the dataset and evaluate their performance on unseen data.
 
-### 4. `svm.ipynb`
+### 4. [`svm.ipynb`](./svm.ipynb)
 - **Description:** 
-  - lorem ipsum
-- **Purpose:** lorem ipsum
+  - Trains and tests SVM model for different `Kryptonite-n` (n = 9, 12, 15) datasets.
+  - Calculate and plot training and test accuracyresults.
+- **Purpose:** Provide different comparable ML model training for main approach (MLP)
 
-### 4. `model_comparison.ipynb`
+### 4. [`model_comparison.ipynb`](./model_comparison.ipynb)
 - **Description:** 
   - This script compares the results of MLP and SVM.
 - **Purpose:** Select the best model
 
-### 6. `hidden_data_labels_generation.ipynb`
+### 6. [`hidden_data_labels_generation.ipynb`]()
 - **Description:** 
   - Contains methods to generate labels for hidden or unannotated data.
   - Uses techniques like semi-supervised learning, clustering, or heuristic labeling.
 - **Purpose:** Augment the dataset by generating labels for unlabeled samples to expand the training data.
 
-### 7. `sustainability.ipynb`
+### 7. [`sustainability.ipynb`](./sustainability.ipynb)
 - **Description:** 
-  - Investigates the sustainability aspects of the project.
-  - Includes analyses of model efficiency, energy consumption, and potential optimizations.
-- **Purpose:** Ensure the project aligns with sustainable practices and minimizes environmental impact.
+  - Calculate and summarize model training's energy usage and its equivalent carbon emissions using different tools.
+  - Calculate trained model's bias and fairness using different metrics.
+- **Purpose:** Analyzes the model's environmental, ethical, and societal impact.
 
 ### Directories  
 Apart from the scripts, this repository also contains the following directories:  
 
-- **`Plots`**  
-  - Contains all plots generated from the scripts organized by the corresponding notebook.  
+- **`Plots`**: Contains all plots generated from the scripts organized by the corresponding notebook.  
 
-- **`Results`**  
-  - Contains the numerical results data obtained from any experiments.
+- **`Results`**: Contains the numerical results data obtained from any experiments.
 
-- **`Datasets`**  
-  - Contains the `Kryptonite-n` datasets used in the project.  
+- **`Datasets`**: Contains the `Kryptonite-n` datasets used in the project.  
 
-- **`HiddenLabels`**
-  - Contains the predicted labels for the hidden Kryptonite-n datasets.
+- **`HiddenLabels`**: Contains the predicted labels for the hidden Kryptonite-n datasets.
 
 ## Getting Started
 
