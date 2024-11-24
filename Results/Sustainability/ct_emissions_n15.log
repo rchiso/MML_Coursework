@@ -1,0 +1,25 @@
+[codecarbon INFO @ 18:58:14] Energy consumed for RAM : 0.000688 kWh. RAM Power : 4.7530388832092285 W
+[codecarbon INFO @ 18:58:14] Energy consumed for all GPUs : 0.004339 kWh. Total GPU Power : 29.8386178597955 W
+[codecarbon INFO @ 18:58:14] Energy consumed for all CPUs : 0.006159 kWh. Total CPU Power : 42.5 W
+[codecarbon INFO @ 18:58:14] 0.011187 kWh of electricity used since the beginning.
+CarbonTracker: WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 481 gCO2/kWh.
+CarbonTracker: Live carbon intensity could not be fetched at detected location: Taipei, Taiwan, TW. Defaulted to average carbon intensity for world in 2019 of 481.00 gCO2/kWh. at detected location: Taipei, Taiwan, TW.
+CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:08:42
+	Energy:	0.006868146734 kWh
+	CO2eq:	3.303578579096 g
+	This is equivalent to:
+	0.030730963526 km travelled by car
+CarbonTracker: WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+CarbonTracker: WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 481 gCO2/kWh.
+CarbonTracker: Average carbon intensity during training was 481.00 gCO2/kWh at detected location: Taipei, Taiwan, TW.
+CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:08:42
+	Energy:	0.006868146734 kWh
+	CO2eq:	3.303578579096 g
+	This is equivalent to:
+	0.030730963526 km travelled by car
+CarbonTracker: Finished monitoring.
