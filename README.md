@@ -28,19 +28,23 @@ The following scripts are the core components of this repository:
   - Includes model evaluation metrics, such as accuracy, precision, recall, F1-score, and confusion matrices.
 - **Purpose:** Train models on the dataset and evaluate their performance on unseen data.
 
-### 4. `hidden_data_labels_generation.ipynb`
+### 4. `svm.ipynb`
+- **Description:** 
+  - lorem ipsum
+- **Purpose:** lorem ipsum
+
+### 4. `model_comparison.ipynb`
+- **Description:** 
+  - This script compares the results of MLP and SVM.
+- **Purpose:** Select the best model
+
+### 6. `hidden_data_labels_generation.ipynb`
 - **Description:** 
   - Contains methods to generate labels for hidden or unannotated data.
   - Uses techniques like semi-supervised learning, clustering, or heuristic labeling.
 - **Purpose:** Augment the dataset by generating labels for unlabeled samples to expand the training data.
 
-### 5. `other_models_explored.ipynb`
-- **Description:** 
-  - Documents experiments with additional machine learning models beyond the main approach.
-  - Includes comparative analysis of their performance against the primary model.
-- **Purpose:** Explore alternative modeling approaches and document insights.
-
-### 6. `sustainability.ipynb`
+### 7. `sustainability.ipynb`
 - **Description:** 
   - Investigates the sustainability aspects of the project.
   - Includes analyses of model efficiency, energy consumption, and potential optimizations.
