@@ -51,15 +51,15 @@ The following scripts are the core components of this repository:
 ### Directories  
 Apart from the scripts, this repository also contains the following directories:  
 
-- **`Plots`**: Contains all plots generated from the scripts organized by the corresponding notebook.  
+- **[`Datasets`](./Datasets/)**: Contains the `Kryptonite-n` datasets used in the project.  
 
-- **`Results`**: Contains the numerical results data obtained from any experiments.
+- **[`HiddenLabels`](./hiddenlabels/)**: Contains the predicted labels for the hidden Kryptonite-n datasets.
 
-- **`Datasets`**: Contains the `Kryptonite-n` datasets used in the project.  
+- **[`Model`](./model/)**: Contains the saved model parameters of the MLP used for generating the final predicted labels.
 
-- **`Model`**: Contains the saved model parameters of the MLP used for generating the final predicted labels.
+- **[`Plots`](./Plots/)**: Contains all plots generated from the scripts organized by the corresponding notebook.  
 
-- **`HiddenLabels`**: Contains the predicted labels for the hidden Kryptonite-n datasets.
+- **[`Results`](./Results/)**: Contains the numerical results data obtained from any experiments.
 
 ## Getting Started
 
