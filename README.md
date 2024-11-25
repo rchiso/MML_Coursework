@@ -22,22 +22,23 @@ The following scripts are the core components of this repository:
   - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory `Plots/HyperparameterTuning`.
 - **Purpose:** Improve model performance by finding the best hyperparameter configuration.
 
-### 3. [`training_and_testing.ipynb`](./training_and_testing.ipynb)
+### 3. [`mlp.ipynb`](./training_and_testing.ipynb)
 - **Description:** 
-  - Implements the training and testing of machine learning models.
-  - Includes model evaluation metrics, such as accuracy, precision, recall, F1-score, and confusion matrices.
-- **Purpose:** Train models on the dataset and evaluate their performance on unseen data.
+  - Trains and tests MLP model for different `Kryptonite-n` (n = 9, 12, 15) datasets (using the selected hyperparamaters).
+  - Plots the mean and standard deviation in test accuracies over multiple training runs.
+  - Generates the labels for the hidden Kryptonite datesets.
+- **Purpose:** Solve the dataset with acceptable accuracy using MLP.
 
 ### 4. [`svm.ipynb`](./svm.ipynb)
 - **Description:** 
   - Trains and tests SVM model for different `Kryptonite-n` (n = 9, 12, 15) datasets.
-  - Calculate and plot training and test accuracyresults.
-- **Purpose:** Provide different comparable ML model training for main approach (MLP)
+  - Calculate and plot training and test accuracy results.
+- **Purpose:** Provide different comparable ML model training for main approach (MLP).
 
 ### 5. [`model_comparison.ipynb`](./model_comparison.ipynb)
 - **Description:** 
   - This script compares the results of MLP and SVM.
-- **Purpose:** Select the best model
+- **Purpose:** Select the best model.
 
 ### 6. [`sustainability.ipynb`](./sustainability.ipynb)
 - **Description:** 
