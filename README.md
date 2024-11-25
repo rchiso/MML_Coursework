@@ -4,6 +4,8 @@ Coursework for Mathematics for Machine Learning (70015) at Imperial College Lond
 
 This repository contains a collection of Jupyter Notebooks developed for solving the coursework task. Each notebook is designed to address a specific aspect of the project, from data analysis to model evaluation and sustainability considerations.
 
+The repository also includes our response paper that refutes the claim that Kryptonite-n dataset cannot be solved with current ML methods.
+
 ## Repository Structure
 
 ### Scripts  
@@ -22,7 +24,7 @@ The following scripts are the core components of this repository:
   - The plots of validation accuracy achieved for different hyperparameter combinations are generated and stored as svg files in the directory `Plots/HyperparameterTuning`.
 - **Purpose:** Improve model performance by finding the best hyperparameter configuration.
 
-### 3. [`mlp.ipynb`](./training_and_testing.ipynb)
+### 3. [`mlp.ipynb`](./mlp.ipynb)
 - **Description:** 
   - Trains and tests MLP model for different `Kryptonite-n` (n = 9, 12, 15) datasets (using the selected hyperparamaters).
   - Plots the mean and standard deviation in test accuracies over multiple training runs.
