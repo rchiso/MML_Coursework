@@ -43,6 +43,7 @@ The following scripts are the core components of this repository:
 ### 5. [`model_comparison.ipynb`](./model_comparison.ipynb)
 - **Description:** 
   - This script compares the results of MLP and SVM.
+  - Plots are saved in [`Plots/ModelComparison`](./Plots/ModelComparison).
 - **Purpose:** Select the best model.
 
 ### 6. [`sustainability.ipynb`](./sustainability.ipynb)
