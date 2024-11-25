@@ -34,18 +34,12 @@ The following scripts are the core components of this repository:
   - Calculate and plot training and test accuracyresults.
 - **Purpose:** Provide different comparable ML model training for main approach (MLP)
 
-### 4. [`model_comparison.ipynb`](./model_comparison.ipynb)
+### 5. [`model_comparison.ipynb`](./model_comparison.ipynb)
 - **Description:** 
   - This script compares the results of MLP and SVM.
 - **Purpose:** Select the best model
 
-### 6. [`hidden_data_labels_generation.ipynb`]()
-- **Description:** 
-  - Contains methods to generate labels for hidden or unannotated data.
-  - Uses techniques like semi-supervised learning, clustering, or heuristic labeling.
-- **Purpose:** Augment the dataset by generating labels for unlabeled samples to expand the training data.
-
-### 7. [`sustainability.ipynb`](./sustainability.ipynb)
+### 6. [`sustainability.ipynb`](./sustainability.ipynb)
 - **Description:** 
   - Calculate and summarize model training's energy usage and its equivalent carbon emissions using different tools.
   - Calculate trained model's bias and fairness using different metrics.
