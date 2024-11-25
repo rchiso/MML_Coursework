@@ -4,6 +4,8 @@ Coursework for Mathematics for Machine Learning (70015) at Imperial College Lond
 
 This repository contains a collection of Jupyter Notebooks developed for solving the coursework task. Each notebook is designed to address a specific aspect of the project, from data analysis to model evaluation and sustainability considerations.
 
+The repository also includes our response paper, [report.pdf](./report.pdf), which disproves the claim that the Kryptonite-n dataset cannot be tackled with existing machine learning techniques.
+
 ## Repository Structure
 
 ### Scripts  
