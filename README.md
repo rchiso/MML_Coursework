@@ -55,6 +55,8 @@ Apart from the scripts, this repository also contains the following directories:
 
 - **`Datasets`**: Contains the `Kryptonite-n` datasets used in the project.  
 
+- **`Model`**: Contains the saved model parameters of the MLP used for generating the final predicted labels.
+
 - **`HiddenLabels`**: Contains the predicted labels for the hidden Kryptonite-n datasets.
 
 ## Getting Started
