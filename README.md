@@ -12,8 +12,8 @@ The following scripts are the core components of this repository:
 ### 1. [`data_analysis.ipynb`](./data_analysis.ipynb)
 - **Description:** 
   - This notebook contains the initial data exploration and analysis.
-  - It includes data visualization, statistical summaries, and preprocessing steps to prepare the dataset for machine learning tasks.
-- **Purpose:** Understand the dataset and identify patterns, correlations, and potential challenges.
+  - This includes plots of histogram distribution of the features, singular values, principal component analysis, mutual information between features, etc.
+- **Purpose:** Understand the dataset and identify patterns, and correlations.
 
 ### 2. [`hyperparameter_tuning.ipynb`](./hyperparameter_tuning.ipynb)
 - **Description:** 
